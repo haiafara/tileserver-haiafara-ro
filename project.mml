@@ -53,6 +53,7 @@ Stylesheet:
   - aerialways.mss
   - admin.mss
   - addressing.mss
+  - hillshade.mss
   - contours.mss
 Layer:
   - id: world
@@ -159,6 +160,11 @@ Layer:
         ) AS features
     properties:
       minzoom: 10
+  - id: hillshade
+    geometry: raster
+    Datasource:
+      type: gdal
+      file: /home/mapnik/data/hillshade.tif
   - id: contours10
     geometry: multilinestring
     <<: *extents
