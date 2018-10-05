@@ -12,6 +12,7 @@
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width;
   line-opacity: 0.6;
+  line-comp-op: multiply;
 }
 
 #contours50[zoom>=12] {
@@ -19,6 +20,7 @@
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width * @contours-medium-multiplier;
   line-opacity: 0.7;
+  line-comp-op: multiply;
 }
 
 #contours200[zoom>=12] {
@@ -26,6 +28,7 @@
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width * @contours-major-multiplier;
   line-opacity: 0.7;
+  line-comp-op: multiply;
 }
 
 #contours-text50 {
