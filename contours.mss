@@ -11,7 +11,7 @@
   line-color: lighten(@contour, 10);
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width;
-  line-opacity: 0.6;
+  line-opacity: 0.4;
   line-comp-op: multiply;
 }
 
@@ -19,7 +19,7 @@
   line-color: lighten(@contour, 10);
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width * @contours-medium-multiplier;
-  line-opacity: 0.7;
+  line-opacity: 0.5;
   line-comp-op: multiply;
 }
 
@@ -27,7 +27,7 @@
   line-color: @contour;
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width * @contours-major-multiplier;
-  line-opacity: 0.7;
+  line-opacity: 0.5;
   line-comp-op: multiply;
 }
 
