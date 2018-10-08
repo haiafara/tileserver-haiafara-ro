@@ -1,24 +1,26 @@
-@contour: #a6a5a3;
+@contour: #999999;
 @contours-text: #a49da3;
 
 @contours-line-width: 0.5;
 @contours-line-smooth: 0.9;   // A value from 0 to 1
 
 @contours-medium-multiplier: 1.5;
-@contours-major-multiplier: 2.0;
+@contours-major-multiplier: 1.8;
 
-#contours10[zoom>=16] {
+#contours10[zoom>=14] {
   line-color: lighten(@contour, 10);
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width;
   line-opacity: 0.4;
+  line-comp-op: multiply;
 }
 
-#contours50[zoom>=14] {
+#contours50[zoom>=12] {
   line-color: lighten(@contour, 10);
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width * @contours-medium-multiplier;
   line-opacity: 0.5;
+  line-comp-op: multiply;
 }
 
 #contours200[zoom>=12] {
@@ -26,6 +28,7 @@
   line-smooth: @contours-line-smooth;
   line-width: @contours-line-width * @contours-major-multiplier;
   line-opacity: 0.5;
+  line-comp-op: multiply;
 }
 
 #contours-text50 {
