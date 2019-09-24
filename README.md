@@ -92,3 +92,7 @@ maps using Mapnik, many based on this project. Some alternatives are:
 * Daniel Koć [@kocio-pl](https://github.com/kocio-pl)
 * Christoph Hormann [@imagico](https://github.com/imagico)
 * Lukas Sommer [@sommerluk](https://github.com/sommerluk)
+
+# My Notes
+
+* https://github.com/openstreetmap/mod_tile/blob/master/mod_tile.conf
